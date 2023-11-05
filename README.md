@@ -9,7 +9,7 @@ Decade after decade, global temperatures rise, and the effects are seen across t
 In the mid 20th century, forest fires were running rampant across canada, with over 12,000 individual fires being ignited (and recorded) in 1989.
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/0712ae9d-841e-4e57-81da-beab5c07bb64)
 
-In 1987, the Canadian government developed and began implementing the Fire Weather Index (FWI).
+In the late 1980s, the Canadian government developed and began implementing the Fire Weather Index (FWI).
 The FWI is a fire risk system based on four weather measurements: temperature, humidity, precipitation, and wind speed.
 A complex mathematical equation is used to compute the fire risk based on these measurements.
 The original paper describing this system was published in 1987 and can be accessed at: https://web.archive.org/web/20180103192255/https://cfs.nrcan.gc.ca/publications?id=19927
@@ -36,4 +36,4 @@ To combat the rise of catastrophic wildfires, innovative uses of data, software,
 To this end, we present  "Only ML Can Stop Wildfires"
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/4b647242-3f53-4be8-973c-9c1da65c4f22)
 
-Here, we construct an alternative model to the FWi, that can determine forest fire risk using less data than is required by the FWI.
+Here, we construct an alternative model to the FWI, that can determine forest fire risk using less data than is required by the FWI.
