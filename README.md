@@ -37,3 +37,6 @@ To this end, we present  "Only ML Can Stop Wildfires"
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/4b647242-3f53-4be8-973c-9c1da65c4f22)
 
 Here, we construct an alternative model to the FWI, that can determine forest fire risk using less data than is required by the FWI.
+The idea is to construct a proof of concept idea that allows for the prediction of wild fire risk in remote or low-income regions that may not have access to the expensive equipment and infrastructure required to use a system like the FWI. 
+The central idea is that less data is less expensive.
+We construct a model that can predict fire risk using only 3 of the four weather measurements that are needed for the FWI predictions, thereby reducing the cost of fire risk prediction.
