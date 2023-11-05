@@ -46,7 +46,7 @@ To train the model, we use weather data from across 71 different weather station
 and a small subset of it is provided in the 'climate_daily_intario_since_2000-reduced' folder. The features we trained on were subsets of the four weather measurements (for example, one model predicts looks only at humidity, precipiptation, and wind speed, and omits temperature), and the labels we trained on were the true FWI computed using the FWI source (in the FWISOurce notebook), which was taken from the canadian government website: https://publications.gc.ca/collections/collection_2016/rncan-nrcan/Fo133-1-424-eng.pdf
 
 Due to time limitations, we trained only on data from Ontario that was recorded since the year 2000.
-In principal, this system should be trained on all worldwide data dating back as far asw possible to maximize the accuracy of the predictions.
+In principal, this system should be trained on all worldwide data dating back as far as possible to maximize the accuracy of the predictions.
 In spite of our data limitations, we were able to achieve reasonable agreement between our reduced-data predictions and the true values of the FWI:
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/99b86a69-8e8a-4cb9-b15c-2e727ea9e7f0)
 
