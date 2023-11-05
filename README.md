@@ -62,8 +62,13 @@ For a quantitative assessment, we compute the % error between the THS prediction
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/b0fb3f2a-def7-443d-ba4f-dd75b1416f91)
 
 The %error is below 30% for all weather stations, indicating reasonable predictions using the THS model.
+Now that we know our model works with reasonable accuracy, we would like to scale to global geospatial data. But weather stations aren't available globally.
 
-Now that we know the model works, we are ready to scale it globally and apply it to global, open access geospatial weather data (geospatial data component #2).
+Even locally, many areas of high population ( https://open.canada.ca/data/en/dataset/c6c48391-fd2f-4d8a-93c8-eb74f58a859b ) don't have a nearby weather station.
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/4fb4dbac-f7bc-48a5-bd27-fd1e8a134d30)
+
+Fortunately, NASA provides global, realtime predictions of temperature, humidity, and wind speed geospatial data.
+Our THS model is able to use this data to predict fire risk globally.
 
 
 
