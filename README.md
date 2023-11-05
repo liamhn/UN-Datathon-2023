@@ -31,3 +31,9 @@ UN projections suggest that catastrophic wildfire events will uncrease by up to 
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/8b864dbd-dd88-4873-ad73-1b6e7d0621d1)
 ( from https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires?gclid=Cj0KCQjw-pyqBhDmARIsAKd9XINX5gsTcfdWUoYEHL9I3OSm3jWVJeTUOw13taQKiGDoRHF89xPFYVYaAsdBEALw_wcB ).
 
+
+To combat the rise of catastrophic wildfires, innovative uses of data, software, and predictive modelling will be indispensible.
+To this end, we present  "Only ML Can Stop Wildfires"
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/4b647242-3f53-4be8-973c-9c1da65c4f22)
+
+Here, we construct an alternative model to the FWi, that can determine forest fire risk using less data than is required by the FWI.
