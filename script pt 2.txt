@@ -1,0 +1,69 @@
+Enter Machine Learning
+
+To combat the problem of sparse weather data globally, 
+we constructed an alternative model to the FWI, that can determine forest fire risk using less data 
+than is required by the FWI. 
+
+This model allows for the 
+prediction of wild fire risk in remote or under-funded regions that may not have access to the 
+expensive equipment and infrastructure required to use a system like the FWI.
+
+Each of our models requires only 3 of the 4 weather conditions required by the FWI to make a similar prediction.
+
+We used a simple feed forward fully connected deep neural network architecture and trained on
+publically accessible data provided by the government of Canada.
+
+Due to time constraints, we only used data from 71 weather stations in Ontario since 2000.
+But a massively upscaled version of the model
+would ideally use global weather data from all historical sources.
+
+This data allowed us to create a labelled data set linking weather data to FWI values,
+ which we directly computed using the FWI algorithm.
+
+To generate models that can predict fire risk based on less data,
+ we trained subsets of weather data against the FWI labels
+
+For exmaple, we made one model that learned to predict the fire
+ risk based off of only temperautre, humidity, and wind speed.
+
+We created a model for each set of three weather features to allow us to predict fire risk even 
+while missing data.
+
+Comparing the predicted values of our model to the true FWI values, we find that the models
+give reasonable predictions 
+
+As a control, we also trained a model using all 4 weather features,
+which predicts the FWI with very high accuracy.
+
+To demonstrate the effectiveness of our machine learning models, we computed the time averaged FWI and compared
+it to the time average of our predictions for the 71 ontario weather stations. This geospatial data
+allows us to determine the error of our predictions as distributed across Ontario.
+We find reasonable agreement, with all FWI values having less than 30% error.
+
+Having validated our model locally in Ontario, we scale up to make global predictions based on satelite data.
+
+NASA provides open access to temperature, humidity and windspeed data globally in real time.
+We fed ths data to our model for temperature, humidity and windspeed  to construct a global prediction of fire risk.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

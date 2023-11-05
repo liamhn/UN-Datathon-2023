@@ -1,0 +1,18 @@
+answers
+
+
+Data Insights Toronto
+liam.haas.neill@mail.utoronto.ca
+
+Jeremy Rothschild
+jerben.rothschild@gmail.com
+
+Sophie McGibbon-Gardner
+sophie.mcgibbon@gmail.com
+
+Predicting Forest Fires From Sparse Data
+
+The fire weather index (FWI) has been used in Canada to determine forest fire risk since the 1980s, leading to a steady decline in the number of forest fires. he FWI is based on temperature, humidity, precipitation and wind speed data which is collected at 'weather stations' across Canada. Here, we construct a model to predict fire risk using less data, which can be applied globally to regions that don't have funding or accessibility for high resolution weather data from weather stations.
+
+
+https://github.com/liamhn/UN-Datathon-2023
