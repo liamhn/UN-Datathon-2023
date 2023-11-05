@@ -53,5 +53,17 @@ In spite of our data limitations, we were able to achieve reasonable agreement b
 Of course, we have extremely good agreement in the case where we trained on all four weather parameters, and worse agreement when only 3 are used.
 However, the reduced-feature models still provide reasonable predictions with less data, and therefore with lower acquisition cost.
 
+To demonstrate the effectiveness of our predictive model, we compute the time-averaged FWI for 71 weather stations in Ontario (since 2000), and compare it to our THS predictionj for the same weather data.
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/c6259a47-8df9-43ee-922c-1f7c9d4227d2)
+
+Qualitatively, these predictions are quite good.
+For a quantitative assessment, we compute the % error between the THS prediction and the true FWI value for each weather station (geospatial data).
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/b0fb3f2a-def7-443d-ba4f-dd75b1416f91)
+
+The %error is below 30% for all weather stations, indicating reasonable predictions using the THS model.
+
+Now that we know the model works, we are ready to scale it globally and apply it to global, open access geospatial weather data (geospatial data component #2).
+
+
 
 We propose that these reduced-data models (or a much improved version of them based on significantly more data) could be implemented globally to provide fire risk predictions at low cost.
