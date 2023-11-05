@@ -1,8 +1,25 @@
 # UN-Datathon-2023
 
 The climate is changing.  
+
 Decade after decade, global temperatures rise, and the effects are seen across the world.
 2023 was an unprecedented year for Canadian wild fires, with over 18 million hectares of forest burned compared to less than 2 million in 2022.
 (https://en.wikipedia.org/wiki/2023_Canadian_wildfires#/media/File:1983-_Canada_wildfires_-_area_burned_annually.svg)
 
-In the mid 20th century, forest fires were running rampant across canada
+In the mid 20th century, forest fires were running rampant across canada, with over 12,000 individual fires being ignoted in 1989.
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/0712ae9d-841e-4e57-81da-beab5c07bb64)
+
+In 1987, the Canadian government developed and began implementing the Fire Weather Index (FWI).
+The FWI is a fire risk system based on four weather measurements: temperature, humidity, precipitation, and wind speed.
+A complex mathematical equation is used to compute the fire risk based on these measurements.
+The original paper describing this system was published in 1987 and can be accessed at: https://web.archive.org/web/20180103192255/https://cfs.nrcan.gc.ca/publications?id=19927
+
+Since the introduction of the FWI in the late 1980s, while the severity of fires continues to increase, the total number of fires has been in steady decline.
+Of course, fire severity is heavily influenced by global climate change, but the number of ignited fires can be immediately reduced by day-to-day changes in human activity. 
+The FWI informs policy choices such as fire bans, and other measures and regulations to control human.
+The effectiveness of the FWI is well demonstrated by the steady decline in the number of fires since it's development and implementaton.
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/5c046037-bd85-4206-9888-bf1ca7adca71)
+
+
+
+But what can be done in the absence of high resolution weather data?
