@@ -6,7 +6,7 @@ Decade after decade, global temperatures rise, and the effects are seen across t
 2023 was an unprecedented year for Canadian wild fires, with over 18 million hectares of forest burned compared to less than 2 million in 2022.
 (https://en.wikipedia.org/wiki/2023_Canadian_wildfires#/media/File:1983-_Canada_wildfires_-_area_burned_annually.svg)
 
-In the mid 20th century, forest fires were running rampant across canada, with over 12,000 individual fires being ignoted in 1989.
+In the mid 20th century, forest fires were running rampant across canada, with over 12,000 individual fires being ignited (and recorded) in 1989.
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/0712ae9d-841e-4e57-81da-beab5c07bb64)
 
 In 1987, the Canadian government developed and began implementing the Fire Weather Index (FWI).
@@ -23,3 +23,11 @@ The effectiveness of the FWI is well demonstrated by the steady decline in the n
 
 
 But what can be done in the absence of high resolution weather data?
+Historically, weather measurements have been performed at "weather stations" scattered across Canada.
+This infrastructure is expensive, requiring equipment, building and transportation infratruction, and human labour.
+Simply put, this type of investment is simply not globally available on a massive scale.
+But as global temperatures rise, and fire risks increase, it is more important than ever to provide real-time risk assessments to influence policy choices and human behaviour.
+UN projections suggest that catastrophic wildfire events will uncrease by up to 50% by the end of the century:
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/8b864dbd-dd88-4873-ad73-1b6e7d0621d1)
+( from https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires?gclid=Cj0KCQjw-pyqBhDmARIsAKd9XINX5gsTcfdWUoYEHL9I3OSm3jWVJeTUOw13taQKiGDoRHF89xPFYVYaAsdBEALw_wcB ).
+
