@@ -40,3 +40,14 @@ Here, we construct an alternative model to the FWI, that can determine forest fi
 The idea is to construct a proof of concept idea that allows for the prediction of wild fire risk in remote or low-income regions that may not have access to the expensive equipment and infrastructure required to use a system like the FWI. 
 The central idea is that less data is less expensive.
 We construct a model that can predict fire risk using only 3 of the four weather measurements that are needed for the FWI predictions, thereby reducing the cost of fire risk prediction.
+
+The model architecture is a simple fully connected feed forward deeep neural network (see ML_FWI_REPLACEMENT notebooks).
+To train the model, we use weather data from across 71 different weather stations in ontario that provide historical data for wind speed, temperature, humidity, and precipitation. The data can be accessed at https://climate-change.canada.ca/climate-data/#/daily-climate-data
+and a small subset of it is provided in the 'climate_daily_intario_since_2000-reduced' folder. The features we trained on were subsets of the four weather measurements (for example, one model predicts looks only at humidity, precipiptation, and wind speed, and omits temperature), and the labels we trained on were the true FWI computed using the FWI source (in the FWISOurce notebook), which was taken from the canadian government website: https://publications.gc.ca/collections/collection_2016/rncan-nrcan/Fo133-1-424-eng.pdf
+
+Due to time limitations, we trained only on data from Ontario that was recorded since the year 2000.
+In principal, this system should be trained on all worldwide data dating back as far asw possible to maximize the accuracy of the predictions.
+In spite of our data limitations, we were able to achieve reasonable agreement between our reduced-data predictions and the true values of the FWI:
+![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/99b86a69-8e8a-4cb9-b15c-2e727ea9e7f0)
+Of courtse, we have extremely good agreement in the case where we trained on all four weather parameters, and worse agreement when only 3 are used.
+However, the reduced-feature models still provide reasonable predictions with less data, and therefore with lower acquisition cost.
