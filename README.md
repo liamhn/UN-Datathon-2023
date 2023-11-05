@@ -52,3 +52,6 @@ In spite of our data limitations, we were able to achieve reasonable agreement b
 
 Of course, we have extremely good agreement in the case where we trained on all four weather parameters, and worse agreement when only 3 are used.
 However, the reduced-feature models still provide reasonable predictions with less data, and therefore with lower acquisition cost.
+
+
+We propose that these reduced-data models (or a much improved version of them based on significantly more data) could be implemented globally to provide fire risk predictions at low cost.
