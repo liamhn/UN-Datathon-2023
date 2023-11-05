@@ -33,7 +33,8 @@ UN projections suggest that catastrophic wildfire events will uncrease by up to 
 
 
 To combat the rise of catastrophic wildfires, innovative uses of data, software, and predictive modelling will be indispensible.
-To this end, we present  "Only ML Can Stop Wildfires"
+To this end, we present  "Predicting Forest Fires From Sparse Data" a.k.a. "Only ML Can Stop Wildfires"
+
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/4b647242-3f53-4be8-973c-9c1da65c4f22)
 
 Here, we construct an alternative model to the FWI, that can determine forest fire risk using less data than is required by the FWI.
