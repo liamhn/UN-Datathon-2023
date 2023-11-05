@@ -49,5 +49,6 @@ Due to time limitations, we trained only on data from Ontario that was recorded 
 In principal, this system should be trained on all worldwide data dating back as far asw possible to maximize the accuracy of the predictions.
 In spite of our data limitations, we were able to achieve reasonable agreement between our reduced-data predictions and the true values of the FWI:
 ![image](https://github.com/liamhn/UN-Datathon-2023/assets/19610597/99b86a69-8e8a-4cb9-b15c-2e727ea9e7f0)
-Of courtse, we have extremely good agreement in the case where we trained on all four weather parameters, and worse agreement when only 3 are used.
+
+Of course, we have extremely good agreement in the case where we trained on all four weather parameters, and worse agreement when only 3 are used.
 However, the reduced-feature models still provide reasonable predictions with less data, and therefore with lower acquisition cost.
