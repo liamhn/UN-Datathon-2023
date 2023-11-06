@@ -1,7 +1,0 @@
-Provincial boundary data:
-
-https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21
-
-Canadian Population:
-
-https://open.canada.ca/data/en/dataset/c6c48391-fd2f-4d8a-93c8-eb74f58a859b
